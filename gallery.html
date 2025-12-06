@@ -129,12 +129,13 @@ html, body {
     <!-- Fixed Background -->
     <div class="fixed inset-0 z-[-1]" style="background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #050505 70%);"></div>
 
-    <!-- Navigation (Simplified) -->
+    <!-- Navigation -->
     <nav class="fixed top-0 w-full z-50 px-6 py-6 md:px-12 flex justify-between items-center mix-blend-difference text-white">
-        <a href="index.html" class="text-2xl md:text-3xl tracking-tight font-serif italic">
+        <a href="index.html" class="text-2xl md:text-3xl text-white tracking-tight font-serif italic">
           BUENA LAVIDA
         </a>
-        <div class="flex items-center gap-6">
+
+        <div class="flex items-center gap-8">
           <div class="hidden md:flex gap-6 text-sm font-medium tracking-wide">
             <a href="index.html" class="opacity-80 hover:opacity-100 cursor-pointer transition-opacity text-white">
               Home
@@ -152,18 +153,20 @@ html, body {
               Contact Us
             </a>
           </div>
-          <a href="contact-us.html" class="hidden md:block bg-white text-black px-5 py-2 rounded-full text-xs font-semibold hover:bg-neutral-200 transition-colors tracking-wide uppercase">
-            Schedule Visit
+
+          <a href="contact-us.html" class="hidden md:block bg-white text-black px-6 py-2.5 rounded-full text-xs md:text-sm font-medium hover:bg-neutral-200 transition-colors tracking-wide">
+            SCHEDULE A VISIT
           </a>
+
           <button id="mobile-menu-btn" class="md:hidden text-white hover:text-neutral-300 transition-colors p-2 -mr-2" aria-label="Toggle mobile menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-lucide="menu" class="w-6 h-6">
               <path d="M4 5h16"></path>
               <path d="M4 12h16"></path>
               <path d="M4 19h16"></path>
             </svg>
           </button>
         </div>
-    </nav>
+      </nav>
 
     <!-- Mobile Menu Overlay -->
     <div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
